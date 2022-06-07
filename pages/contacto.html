@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Productos</title>
+</head>
+
+<body>
+
+    <!-- Inicio NavBar -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fondoNav">
+            <!-- Brand -->
+            <div class="navLeft">
+                <h1>PERSAC</h1>
+                <p>Controladores Fiscales Homologados</p>
+            </div>
+
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse NavBar2" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item liMenu">
+                        <a class="nav-link navBar3" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item liMenu">
+                        <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item liMenu">
+                        <a class="nav-link" href="ubicacion.html">UBICACIÓN</a>
+                    </li>
+                    <li class="nav-item liMenu">
+                        <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item liMenu">
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Fin NavBar -->
+    <!-- Inicio formulario -->
+
+    <main class="mainForm col-xs-12 col-md-12 col-xl-12">
+
+        <div class="sectionForm">
+            <h1>Nos encantaria charlar con vos!</h1>
+            <p>Ante cualquier duda o consulta, envíanos un mensaje!</p>
+        </div>
+        <div class="contact_form">
+            <div class="formulario">
+                <form action="#" method="post" class="formContact">
+                    <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                            placeholder="Escribe tu nombre">
+                    </p>
+
+                    <p>
+                        <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio"
+                            placeholder="Escribe tu Email">
+                    </p>
+
+                    <p>
+                        <label for="telefone" class="colocar_telefono">Teléfono
+                        </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>
+                    <p>
+                        <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+                            placeholder="Escribe un asunto">
+                    </p>
+
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                            placeholder="Deja aquí tu comentario..."></textarea>
+                    </p>
+
+                    <button class="buttonForm" type="submit" name="enviar_formulario">
+                        <p>Enviar</p>
+                    </button>
+
+                    <p class="aviso">
+                        <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>
+
+                </form>
+            </div>
+        </div>
+        <div class="disp"></div>
+    </main>
+
+    <!-- Finaliza Formulario -->
+    <!-- Inicio Footer -->
+    <footer class="container-fluid">
+        <div class="container col-sm-4 divFoot1">
+            <h2>¿Que hacemos?</h2>
+            <ul>
+                <li>Venta de equipos Homologados</li>
+                <li>Venta de Insumos</li>
+                <li>Instalaciones Comerciales y de Oficina</li>
+                <li>Libreria</li>
+                <li>Accesorios</li>
+            </ul>
+        </div>
+        <div class="container col-sm-4 divFoot2">
+            <h2>©2022 Controladores fiscales | Persac</h2>
+        </div>
+        <div class="container col-sm-4 divFoot3">
+            <h2>Seguinos en Redes!</h2>
+            <a href="http://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+    </footer>
+    <!-- Fin Footer -->
+    <!-- Inicia Pie de Pagina -->
+    <div class="pieDePag">
+        <p>Diseñado por Nahuel Caballero</p>
+    </div>
+    <!-- Fin Pie de Pagina -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
