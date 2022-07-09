@@ -1,3 +1,0 @@
-Se agregaron las etiquetas Meta>Descripción y Meta>KeyWords (Una personalizada por cada seccion)
-Se Modificaron los "Tittles" de cada seccion
-Se agregaron etiquetas <strong> en palabras clave
